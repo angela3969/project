@@ -2,7 +2,7 @@ from flask import Flask
 import job
 from flask import request
 app = Flask(__name__)
-@app.route("/", methods=['POST'])
+@app.route("/test", methods=['POST'])
 def hello():
     return "Hello, World!"
 
