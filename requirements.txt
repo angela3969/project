@@ -5,3 +5,8 @@ scikit-learn==0.21
 opencv-python
 gunicorn==19.6.0
 xgboost==0.90
+requests
+BeautifulSoup
+json
+pygsheets
+oauth2client.service_account
