@@ -5,7 +5,7 @@ opencv-python
 gunicorn==19.6.0
 xgboost==0.90
 requests
-BeautifulSoup
+beautifulSoup
 json
 pygsheets
 oauth2client.service_account
