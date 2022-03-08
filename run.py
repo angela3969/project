@@ -7,8 +7,9 @@ Created on Wed Mar  2 22:44:29 2022
 """
 
 from flask import Flask
-import job
+#import job
 from flask import request
+from app import app
 app = Flask(__name__)
 @app.route("/", methods=['POST'])
 def hello():
