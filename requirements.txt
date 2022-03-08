@@ -6,6 +6,5 @@ gunicorn==19.6.0
 xgboost==0.90
 requests
 bs4
-json
 pygsheets
 oauth2client.service_account
