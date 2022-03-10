@@ -97,7 +97,7 @@ def getSkill(applyURL):
   #
   others = data['other']
   try:
-     dataDict['others'] = others
+     dataDict['others'] = others.decode(encoding='unicode')
   except:
      print('')
       
