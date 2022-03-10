@@ -79,7 +79,7 @@ def getJob(career):
     print(Id,company,location,education,applyURL)
     jobId = 'N'+str(Id);
     saveJob(Id,jobId ,jobName,company,location,education,applyURL)
-    skillNum = getSkill(skillNum,jobId,applyURL)
+    #skillNum = getSkill(skillNum,jobId,applyURL)
   
 
 #getSkill
