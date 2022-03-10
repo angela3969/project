@@ -47,7 +47,7 @@ def getSkill(applyURL):
         abilityRequired = ability.split("/")
         requiredLanguageAbility = languageRequired+"("+abilityRequired[0]+")"
         level = abilityRequired[1]
-        dataDict['language'].append([requiredLanguageAbility,level])
+        dataDict['language'].append(requiredLanguageAbility+level)
       except:
         print('')
         
